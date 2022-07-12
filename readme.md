@@ -57,7 +57,7 @@ apt-get install nvidia-container-runtime
 ## Docker setup
 1. use the Dockerfile in this repo and insert your app installation steps.
 
-2. use the requirements.yaml file in this repo to setup the conda python environment and put in any package you like.
+2. use the requirements.yaml file in this repo to setup the conda python environment and put any packages you like in it.
 
 3. run build-up:
     ```
