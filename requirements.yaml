@@ -1,0 +1,20 @@
+name: torch-cuda108
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pip
+  - numpy
+  - pillow
+  - yaml
+  - pyyaml
+  - matplotlib
+  - tensorboard
+  - protobuf
+  - tqdm
+  - pip:
+    - scipy
+    - scikit-learn
+    - torch
+    - torchvision
